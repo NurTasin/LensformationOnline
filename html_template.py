@@ -16,14 +16,14 @@ def template(imgPlace):
     <meta property="og:url" content="https://lensformation.tech/projects-compact-grid.html">
     <meta property="og:title" content="Projects - Lensformation">
     <meta property="og:description" content="Lensformation is a photography studio based in Bangladesh. We focus on capturing precious moments and try to add some creativity with it.">
-    <meta property="og:image" content="./assets/img/socials/social_preview.jpg">
+    <meta property="og:image" content="https://lensformation.tech/assets/img/socials/social_preview.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://lensformation.tech/projects-compact-grid.html">
     <meta property="twitter:title" content="Projects - Lensformation">
     <meta property="twitter:description" content="Lensformation is a photography studio based in Bangladesh. We focus on capturing precious moments and try to add some creativity with it.">
-    <meta property="twitter:image" content="./assets/img/socials/social_preview.jpg">
+    <meta property="twitter:image" content="https://lensformation.tech/assets/img/socials/social_preview.jpg">
 
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
