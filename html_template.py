@@ -8,6 +8,23 @@ def template(imgPlace):
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Projects - Lensformation</title>
     <meta name="description" content="Lensformation is a photography studio based in Bangladesh. We focus on capturing precious moments and try to add some creativity with it.">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Projects - Lensformation">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lensformation.tech/projects-compact-grid.html">
+    <meta property="og:title" content="Projects - Lensformation">
+    <meta property="og:description" content="Lensformation is a photography studio based in Bangladesh. We focus on capturing precious moments and try to add some creativity with it.">
+    <meta property="og:image" content="./assets/img/socials/social_preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://lensformation.tech/projects-compact-grid.html">
+    <meta property="twitter:title" content="Projects - Lensformation">
+    <meta property="twitter:description" content="Lensformation is a photography studio based in Bangladesh. We focus on capturing precious moments and try to add some creativity with it.">
+    <meta property="twitter:image" content="./assets/img/socials/social_preview.jpg">
+
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
