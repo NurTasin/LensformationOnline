@@ -58,7 +58,7 @@ def template(imgPlace):
     </main>
     <footer class="page-footer">
         <div class="container">
-            <div class="social-icons"><a href="https://facebook.com/lensformation"><i class="icon ion-social-facebook"></i></a><a href="https://instagram.com/lensformation"><i class="icon ion-social-instagram-outline"></i></a><a href="mailto: lensformation.ts@gmail.com"><i class="icon ion-email"></i></a></div>
+            <div class="social-icons"><a href="https://facebook.com/lensformation"><i class="icon ion-social-facebook"></i></a><a href="https://instagram.com/lensformation"><i class="icon ion-social-instagram-outline"></i></a><a href="mailto: contact@lensformation.tech"><i class="icon ion-email"></i></a></div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>

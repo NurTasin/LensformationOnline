@@ -29,6 +29,9 @@
     <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="icon" type="image/png" href="./assets/img/avatars/lensformation_dark.png" />
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 <body>
@@ -46,13 +49,33 @@
     <main class="page contact-page">
         <section class="portfolio-block contact">
             <div class="container">
+                <div class="form-box">
+                    <h1>Contact Us</h1>
+                    <form action="https://send.pageclip.co/jKVToMX6QSGYRYQqcf8CKaKX2eRmMibF/contact-form" class="pageclip-form" method="post">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" id="name" type="text" name="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="Message"></textarea>
+                      </div>
+                      <button class="button pageclip-form__submit btn btn-primary" type="submit" style="margin-top: 1.5rem;width:100%;">
+                        <span>Submit</span>
+                      </button>
+                      </div>
+                    </form>
+                  </div>
                 <div class="heading">
-                    <h2>Contact US</h2>
-                    <p>You can contact us using Facebook or Instagram.</p>
+                    <p>Or you can contact us using Facebook or Instagram.</p>
                     <div>
                         <ul class="list-inline text-center" style="margin: 2rem;">
                             <li class="list-inline-item"><a href="https://www.facebook.com/lensformation"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
-                            <li class="list-inline-item"><a href="mailto: lensformation.ts@gmail.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i></span></a></li>
+                            <li class="list-inline-item"><a href="mailto: contact@lensformation.tech"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i></span></a></li>
                             <li class="list-inline-item"><a href="https://www.instagram.com/lensformation/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
                         </ul>
                     </div>
