@@ -32,6 +32,16 @@
     <link rel="stylesheet" href="./assets/css/form.css">
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <script type="text/javascript">
+        var onloadCallback = function() {
+          captcha_obj=grecaptcha.render('recaptcha', {
+            'sitekey' : '6LddbaMjAAAAANxeomvocSex7zY61EBsU2jyk_yT',
+            'callback': (response)=>{
+              document.getElementById('submit-btn').removeAttribute("disabled");
+            }
+          });
+        };
+    </script>
 </head>
 
 <body>
@@ -64,9 +74,12 @@
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" name="Message"></textarea>
                       </div>
-                      <button class="button pageclip-form__submit btn btn-primary" type="submit" style="margin-top: 1.5rem;width:100%;">
+                      <div id="recaptcha" style="margin-top: 1rem;"></div>
+                      <button class="button pageclip-form__submit btn btn-primary" id="submit-btn" type="submit" style="margin-top: 1.5rem;width:100%;" disabled>
                         <span>Submit</span>
                       </button>
+                      <br>
+                      <div id="submission_text" class="text-center" style="margin-top: 1.5rem;"></div>
                       </div>
                     </form>
                   </div>
@@ -88,9 +101,10 @@
             <p>Copyright 2022 Lensformation</p>
         </div>
     </footer>
+    <script src="./assets/js/form_handler.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 </body>
-
 </html>
