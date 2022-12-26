@@ -1,9 +1,18 @@
 def template(imgPlace):
-    return f"""\
+    return """\
 <!DOCTYPE html>
 <html>
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJTLYW2F6B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KJTLYW2F6B');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Projects - Lensformation</title>
@@ -52,7 +61,7 @@ def template(imgPlace):
                 <h2>Recent Work</h2>
             </div>
             <div class="row g-0">
-                {imgPlace}
+            """+imgPlace+"""
             </div>
         </section>
     </main>
