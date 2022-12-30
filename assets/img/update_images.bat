@@ -1,1 +1,1 @@
-instaloader --no-metadata-json --no-profile-pic --no-videos --no-video-thumbnails --fast-update lensformation
+instaloader --no-metadata-json --no-profile-pic lensformation

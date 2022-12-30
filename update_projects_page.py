@@ -3,7 +3,8 @@ import os
 import html_template
 
 IMG_DIR="./assets/img/lensformation/"
-IMG_EXT='.jpg'
+IMG_EXT_JPG='.jpg'
+IMG_EXT_PNG=".png"
 CAP_EXT='.txt'
 
 
@@ -11,7 +12,7 @@ Files=[file for file in os.listdir(path.abspath(IMG_DIR))]
 Images=[]
 
 for file in Files:
-    if file.endswith(IMG_EXT):
+    if file.endswith(IMG_EXT_JPG) or file.endswith(IMG_EXT_PNG):
         Images.append(file)
 
 Images.reverse()
